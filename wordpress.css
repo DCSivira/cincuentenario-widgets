@@ -1,0 +1,21 @@
+/*############################ Custom footer widget #########################*/
+
+#custom-widget-footer-main {
+    display: block;
+}
+
+#custom-widget-footer-home-mobile {
+    display: none;
+}
+
+@media (max-width: 480px){
+    #custom-widget-footer-home-mobile {
+        display: block;
+    }
+    
+    #custom-widget-footer-main {
+        display: none;
+    }  
+}
+
+/*########################## Fin Custom footer widget #######################*/
